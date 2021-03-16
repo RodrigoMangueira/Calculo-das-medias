@@ -26,18 +26,26 @@ Atividade da disciplina Lógica de Programação Algoritimica
     n5= prompt ("Informe a quinta nota: ");
     media = ((n1 + n2 + n3 + n4)/5*0.4) + n5 ; 
 
-        if ( media >= 7 ) {
-        document.write ("Aprovado");
+        if ( media >= 7 ) 
+ {            
+   
+    console.log ("Aprovado");
 
-        } else {
-
-    if ( media < 4 ) {
-    document.write ("Reprovado");
-
-    } else {
-    if ( media > 4 <7 ) {
-    document.write ("Recuperação");
-    }}
-    </script>
-     </body>
-    </html>
+    } 
+    else 
+    { 
+              if ( media < 4 ) 
+    {
+       console.log("Reprovado");
+    }
+    else 
+    {
+    
+    if ( media > 4 < 7 ) 
+    {console.log ("Recuperação");
+    } //Quero dizer que a média é maior que 4 e menor que 7
+}
+          
+          </script>
+          </body>
+         </html>
