@@ -1,6 +1,9 @@
 <html>
  <body>
-  <script type="text/javascript">
+//Atividade da disciplina Lógica de Programação Algoritimica
+
+
+<script type="text/javascript">
     var media, n1, n2, n3, n4, n5 ;
 
 n1= prompt ("Informe a primeira nota: ");
