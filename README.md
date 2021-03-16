@@ -4,9 +4,11 @@ Atividade da disciplina Lógica de Programação Algoritimica
 
 
 
-<html>
-  <body>
-    <script type="text/javascript">
+
+
+    <html>
+     <body>
+      <script type="text/javascript">
       var notas = prompt("Quais suas notas?"); 
             if (notas != null) { 
         var n1;
@@ -17,7 +19,7 @@ Atividade da disciplina Lógica de Programação Algoritimica
 
         var av1 = (n1+n2+n3+n4)/5*0.4;
         var media = av1+n5;
-  if(media >= 7);{
+     if(media >= 7);{
      alert("Parabens, aprovado! Media "+media);
      }
      else
@@ -28,7 +30,7 @@ Atividade da disciplina Lógica de Programação Algoritimica
      //se >=7 dizer que foi aprovado
         //se <4 e <7 fazer recuperação
        //se <4 reprovado
-   document.write("Sua média é:",media);
+      document.write("Sua média é:",media);
     </script>
-  </body>
+     </body>
 </html>
