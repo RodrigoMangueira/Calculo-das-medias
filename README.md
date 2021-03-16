@@ -2,6 +2,8 @@
 Como calcular média do aluno
 Atividade da disciplina Lógica de Programação Algoritimica
 
+
+
 <html>
   <body>
     <script type="text/javascript">
