@@ -1,2 +1,2 @@
-# C-lculo-das-m-dias
+# Calculo-das-medias
 Como calcular média do aluno
