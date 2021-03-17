@@ -15,13 +15,15 @@
 				alert("Sua mediaAV1 é: " + mediaAV1);
        //Este cálculo está errado e não sei corrigir. A nota AV1 vale 40% da nota (de 0 a 4)
         var AV2 = +prompt ("Deseja saber sua média total (AV1+AV2)? Informe sua nota AV2", "notaAV2...");
-        while(AV2 < 0 || nota >= 6){
+        while(AV2 < 0 || AV2 > 6){
         alert("A AV2 deve ser entre 0 e 6"); nota =+prompt("Digite a AV2")
         };
 		
-       //var mediatotal = (mediaAV1+AV2);
-        //alert("Sua mediatotal é: " + mediatotal);
-        
+       	var mediatotal = (mediaAV1+AV2);
+        alert("Sua mediatotal é: " + mediatotal);
+        //while(mediatotal < 4){
+        //alert("Você foi reprovado na disciplina");
+		
       </script>
     </body>
 </html>
