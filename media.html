@@ -1,5 +1,3 @@
-  
-  
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -9,33 +7,20 @@
     </head>
     <body>
         <script
-        >var notaAOL1 = prompt ("Qual sua notaAOL1?", "notaAOL1...");
-        var notaAOL2 = prompt ("Qual sua notaAOL2?", "notaAOL2...");
-        var notaAOL3 = prompt ("Qual sua notaAOL3?", "notaAOL3...");
-        var notaAOL4 = prompt ("Qual sua notaAOL4?", "notaAOL4...");
+        >var notaAOL1 = +prompt ("Qual sua notaAOL1?", "notaAOL1...");
+        var notaAOL2 = +prompt ("Qual sua notaAOL2?", "notaAOL2...");
+        var notaAOL3 = +prompt ("Qual sua notaAOL3?", "notaAOL3...");
+        var notaAOL4 = +prompt ("Qual sua notaAOL4?", "notaAOL4...");
         var mediaAV1 = (notaAOL1+notaAOL2+notaAOL3+notaAOL4)/5*0.4;
 				alert("Sua mediaAV1 é: " + mediaAV1);
        //Este cálculo está errado e não sei corrigir. A nota AV1 vale 40% da nota (de 0 a 4)
-        var AV2 = prompt ("Deseja saber sua média total (AV1+AV2)? Informe sua nota AV2", "notaAV2...");
-        //A nota AV2 vale 60% da nota (de 0 a 6). 
-        var mediatotal = (mediaAV1+AV2);
-        alert("Sua mediatotal é: " + mediatotal);
+        var AV2 = +prompt ("Deseja saber sua média total (AV1+AV2)? Informe sua nota AV2", "notaAV2...");
+        while(AV2 < 0 || nota >= 6){
+        alert("A AV2 deve ser entre 0 e 6"); nota =+prompt("Digite a AV2")
+        };
+       //var mediatotal = (mediaAV1+AV2);
+        //alert("Sua mediatotal é: " + mediatotal);
         
       </script>
     </body>
 </html>
-
-
-//if ( media >= 7 )  {            
-    console.log ("Aprovado");
-    } 
- else 
-{ 
-  if ( media < 4 ){
-   console.log("Reprovado");
-}
-else {
- if ( media > 4 < 7 ) 
-{console.log ("Recuperação");
-} //Quero dizer que a média é maior que 4 e menor que 7
-}
