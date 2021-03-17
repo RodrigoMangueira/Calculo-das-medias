@@ -11,19 +11,18 @@
         var notaAOL2 = +prompt ("Qual sua notaAOL2?", "notaAOL2...");
         var notaAOL3 = +prompt ("Qual sua notaAOL3?", "notaAOL3...");
         var notaAOL4 = +prompt ("Qual sua notaAOL4?", "notaAOL4...");
-        var mediaAV1 = (notaAOL1+notaAOL2+notaAOL3+notaAOL4)/5*0.4;
+	var notaAOL5 = +prompt ("Qual sua notaAOL5?", "notaAOL5...");
+        var mediaAV1 = (notaAOL1+notaAOL2+notaAOL3+notaAOL4+notaAOL5)/5*0.4;
 				alert("Sua mediaAV1 é: " + mediaAV1);
 
-	var AV2 = +prompt ("Deseja saber sua média total (AV1+AV2)? Informe sua nota AV2", "notaAV2...");
+        var AV2 = +prompt ("Deseja saber sua média total (AV1+AV2)? Informe sua nota AV2", "notaAV2...");
         while(AV2 < 0 || AV2 > 6){
         alert("A AV2 deve ser entre 0 e 6"); nota =+prompt("Digite a AV2")
         };
 		
-       	var mediatotal = (mediaAV1+AV2);
+       var mediatotal = (mediaAV1+AV2);
         alert("Sua mediatotal é: " + mediatotal);
-        //while(mediatotal < 4){
-        //alert("Você foi reprovado na disciplina");
-		
+        
       </script>
     </body>
 </html>
